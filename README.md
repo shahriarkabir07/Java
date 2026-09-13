@@ -31,16 +31,16 @@ the code as comments, so you can read, run, and modify it immediately.
 
 | Folder | Topic |
 |---|---|
-| `01-Basics` | Variables, I/O, program structure |
-| `02-Conditionals` | `if` / `else if` / `else` |
-| `03-Loops` | `for`, `while`, nested loops |
-| `04-Methods` | Methods, overloading, recursion |
-| `05-Arrays` | Traversal, searching, sorting |
-| `06-Strings` | String manipulation |
-| `07-OOP` | Encapsulation, Inheritance, Polymorphism, Abstraction |
-| `08-Exception-Handling` | `try/catch/finally`, custom exceptions |
-| `09-File-Handling` | Reading & writing files |
-| `10-Collections` | `ArrayList`, `HashMap` |
+| `Basics` | Variables, I/O, program structure |
+| `Conditionals` | `if` / `else if` / `else` |
+| `Loops` | `for`, `while`, nested loops |
+| `Methods` | Methods, overloading, recursion |
+| `Arrays` | Traversal, searching, sorting |
+| `Strings` | String manipulation |
+| `OOP` | Encapsulation, Inheritance, Polymorphism, Abstraction |
+| `Exception-Handling` | `try/catch/finally`, custom exceptions |
+| `File-Handling` | Reading & writing files |
+| `Collections` | `ArrayList`, `HashMap` |
 
 ---
 
