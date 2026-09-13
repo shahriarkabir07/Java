@@ -59,20 +59,20 @@ can work through a folder top-to-bottom:
 
 ```text
 Java-Problems/
-├── 01-Basics/
-├── 02-Conditionals/
-├── 03-Loops/
-├── 04-Methods/
-├── 05-Arrays/
-├── 06-Strings/
-├── 07-OOP/
+├── Basics/
+├── Conditionals/
+├── Loops/
+├── Methods/
+├── Arrays/
+├── Strings/
+├── OOP/
 │   ├── Encapsulation/
 │   ├── Inheritance/
 │   ├── Polymorphism/
 │   └── Abstraction/
-├── 08-Exception-Handling/
-├── 09-File-Handling/
-├── 10-Collections/
+├── Exception-Handling/
+├── File-Handling/
+├── Collections/
 └── README.md
 ```
 
@@ -81,50 +81,22 @@ that folder's problems and the concept each one demonstrates.
 
 ---
 
-## ▶️ How to Run a Java Program
 
-You need a Java Development Kit (JDK 8 or newer) installed. Then, from a
-terminal:
-
-```bash
-# 1. Go into the folder containing the problem
-cd 01-Basics
-
-# 2. Compile the file
-javac HelloWorld.java
-
-# 3. Run the compiled program
-java HelloWorld
-```
-
-For problems made of more than one file (for example, a custom exception
-class used by another class), compile them together:
-
-```bash
-cd 08-Exception-Handling
-javac BankAccountWithException.java InsufficientBalanceException.java
-java BankAccountWithException
-```
-
-> 💡 Tip: You can also open this folder in an IDE like IntelliJ IDEA,
-> Eclipse, or VS Code (with the Java extension) and run any file directly.
-
----
 
 ## 🗺️ Learning Roadmap
 
 If you are new to Java, work through the folders in this order:
 
-1. **01-Basics** — get comfortable with syntax, variables, and printing/reading input
-2. **02-Conditionals** — learn to make decisions in code
-3. **03-Loops** — learn to repeat actions
-4. **04-Methods** — learn to organize code into reusable blocks
-5. **05-Arrays** — learn to work with collections of data
-6. **06-Strings** — learn to manipulate text
-7. **07-OOP** — learn to model real-world things with classes and objects
-8. **08-Exception-Handling** — learn to handle errors gracefully
-9. **09-File-Handling** — learn to read and write files
-10. **10-Collections** — learn to use `ArrayList` and `HashMap` for flexible data storage
+1. **Basics** — get comfortable with syntax, variables, and printing/reading input
+2. **Conditionals** — learn to make decisions in code
+3. **Loops** — learn to repeat actions
+4. **Methods** — learn to organize code into reusable blocks
+5. **Arrays** — learn to work with collections of data
+6. **Strings** — learn to manipulate text
+7. **OOP** — learn to model real-world things with classes and objects
+8. **Exception-Handling** — learn to handle errors gracefully
+9. **File-Handling** — learn to read and write files
+10. **Collections** — learn to use `ArrayList` and `HashMap` for flexible data storage
 
 ---
 
@@ -150,51 +122,7 @@ practical example:
 
 ---
 
-## 🧩 Sample Problem
 
-**Problem:** Find the largest of three numbers.
-
-**Input:**
-```
-10 25 15
-```
-
-**Output:**
-```
-Largest = 25
-```
-
-**Solution:** (`02-Conditionals/LargestOfThreeNumbers.java`)
-```java
-import java.util.Scanner;
-
-public class LargestOfThreeNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-
-        int largest;
-        if (a >= b && a >= c) {
-            largest = a;
-        } else if (b >= a && b >= c) {
-            largest = b;
-        } else {
-            largest = c;
-        }
-
-        System.out.println("Largest = " + largest);
-        scanner.close();
-    }
-}
-```
-
-**Explanation:** We compare each number against the other two. A number is
-the largest only if it is greater than or equal to both of the others.
-
----
 
 ## 🙋 Author
 
